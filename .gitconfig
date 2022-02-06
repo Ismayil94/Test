@@ -1,0 +1,11 @@
+[user]
+        email = ismayilal1994@gmail.com
+        name = Ismayil
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[alias]
+        history = git log --graph
+
